@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Incorporar Eventos</title>
+</head>
+<body>
+    <div class="encabezado">
+    <h1>Weather Channel</h1>
+    <h3 id="texto">Hola!</h3>
+    <form id="formulario">
+    <input type="text" placeholder="Ingresa una ciudad" class="letras">
+    <button class="btnPrincipal" type="submit">ENVIAR</button>
+    </form>
+    </div>
+    <div class="container">
+        <ul class="ciudades">
+            <li>
+                <span id="ciudad"></span>
+                <br>
+                <span id="temperatura"></span>
+                <span id="grados"></span>
+                <br>
+                <img id="wicon" src alt="Icono del tiempo">
+                <br>
+                <span id="descripcion"></span>
+                <br>
+            </li>
+        </ul>
+    </div>
+
+    <script src="./miarchivo.js"></script>
+</body>
+</html>
